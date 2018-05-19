@@ -1,2 +1,5 @@
 ﻿  stdafx.cpp
-  Basalt.vcxproj -> C:\Users\rossm\Documents\GitHub\Obsidian\Obsidian\Debug\Basalt.lib
+  Basalt.cpp
+  dllmain.cpp
+  Generating Code...
+  Basalt.vcxproj -> C:\Users\rossm\Documents\GitHub\Obsidian\Obsidian\Debug\Basalt.dll

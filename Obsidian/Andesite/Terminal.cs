@@ -8,13 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Andesite
+namespace Terminal
 {
-    public partial class Form1 : Form
+    public partial class Andesite : Form
     {
-        public Form1()
+        public Andesite()
         {
             InitializeComponent();
+        }
+
+        private void Andesite_Load(object sender, EventArgs e)
+        {
+            disp(Stale.Version + "\n");
+            disp(Stale.Author + "\n\n");
+            disp("login as: ");
         }
     }
 }
